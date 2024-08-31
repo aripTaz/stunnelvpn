@@ -4,11 +4,11 @@
 MYIP=$(wget -qO- ipinfo.io/ip);
 clear
 apt install jq curl -y
-DOMAIN=inject.cloud
+DOMAIN=scripter404.my.id
 sub=tunnel-$(</dev/urandom tr -dc a-z | head -c4)
 SUB_DOMAIN=${sub}.${DOMAIN}
-CF_ID=mezzqueen293@gmail.com
-CF_KEY=e03f30d53ad7ec2ab54327baa5e2da5ab44f0
+CF_ID=tazzpyns@gmail.com
+CF_KEY=1ff2e2bfc5f3341e1e7a70ed2c1a333841a8b
 set -euo pipefail
 IP=$(curl -sS ifconfig.me);
 echo "Updating DNS for ${SUB_DOMAIN}..."
